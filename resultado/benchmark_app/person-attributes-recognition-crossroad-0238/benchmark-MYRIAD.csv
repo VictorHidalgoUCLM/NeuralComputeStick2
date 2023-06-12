@@ -1,0 +1,26 @@
+Command line parameters;
+d;MYRIAD;
+m;/home/pc/Escritorio/TFG/intel/person-attributes-recognition-crossroad-0238/FP16/person-attributes-recognition-crossroad-0238.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/person-attributes-recognition-crossroad-0238;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;person-attributes-recognition-crossroad-0238;
+target device;MYRIAD;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);40.20;
+load network time (ms);1976.06;
+first inference time (ms);14.00;
+total execution time (ms);60051.96;
+total number of iterations;7416;
+latency (ms);32.78;
+throughput;123.49;
+

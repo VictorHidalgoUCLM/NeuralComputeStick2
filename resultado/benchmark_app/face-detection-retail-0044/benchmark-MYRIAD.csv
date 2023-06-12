@@ -1,0 +1,11 @@
+Command line parameters;
+d;MYRIAD;
+m;/home/pc/Escritorio/TFG/public/face-detection-retail-0044/FP16/face-detection-retail-0044.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/face-detection-retail-0044;
+report_type;no_counters;
+t;5;
+
+Execution results;
+read network time (ms);7.48;
+error;Can not init Myriad device: NC_ERROR;
+

@@ -1,0 +1,26 @@
+Command line parameters;
+d;MYRIAD;
+m;/home/pc/Escritorio/TFG/intel/single-image-super-resolution-1032/FP16/single-image-super-resolution-1032.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/single-image-super-resolution-1032;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;single-image-super-resolution-1032;
+target device;MYRIAD;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);6.06;
+load network time (ms);3222.70;
+first inference time (ms);759.35;
+total execution time (ms);61889.75;
+total number of iterations;184;
+latency (ms);1342.08;
+throughput;2.97;
+

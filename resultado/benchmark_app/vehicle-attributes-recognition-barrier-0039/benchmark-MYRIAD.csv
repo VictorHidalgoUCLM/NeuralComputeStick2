@@ -1,0 +1,26 @@
+Command line parameters;
+d;MYRIAD;
+m;/home/pc/Escritorio/TFG/intel/vehicle-attributes-recognition-barrier-0039/FP16/vehicle-attributes-recognition-barrier-0039.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/vehicle-attributes-recognition-barrier-0039;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;vehicle-attributes-recognition-barrier-0039;
+target device;MYRIAD;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);4.77;
+load network time (ms);1651.34;
+first inference time (ms);2.98;
+total execution time (ms);60011.75;
+total number of iterations;31616;
+latency (ms);7.57;
+throughput;526.83;
+

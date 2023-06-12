@@ -1,0 +1,26 @@
+Command line parameters;
+api;sync;
+m;/home/pc/Escritorio/TFG/public/face-detection-retail-0044/FP16/face-detection-retail-0044.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/face-detection-retail-0044;
+report_type;no_counters;
+t;5;
+
+Configuration setup;
+topology;face-detection-retail-0044;
+target device;CPU;
+API;sync;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;1;
+duration (ms);5000;
+
+Execution results;
+read network time (ms);14.32;
+load network time (ms);73.46;
+first inference time (ms);23.25;
+total execution time (ms);5001.93;
+total number of iterations;384;
+latency (ms);12.97;
+throughput;77.08;
+

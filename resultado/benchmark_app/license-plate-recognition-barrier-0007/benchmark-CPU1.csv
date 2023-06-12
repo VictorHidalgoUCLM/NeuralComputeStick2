@@ -1,0 +1,26 @@
+Command line parameters;
+api;sync;
+m;/home/pc/Escritorio/TFG/public/license-plate-recognition-barrier-0007/FP16/license-plate-recognition-barrier-0007.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/license-plate-recognition-barrier-0007;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;license-plate-recognition-barrier-0007;
+target device;CPU;
+API;sync;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;1;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);20.05;
+load network time (ms);38.03;
+first inference time (ms);28.25;
+total execution time (ms);60000.64;
+total number of iterations;11613;
+latency (ms);4.99;
+throughput;200.25;
+

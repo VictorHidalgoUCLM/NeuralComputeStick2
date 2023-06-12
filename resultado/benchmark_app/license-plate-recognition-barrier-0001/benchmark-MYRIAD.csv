@@ -1,0 +1,26 @@
+Command line parameters;
+d;MYRIAD;
+m;/home/pc/Escritorio/TFG/intel/license-plate-recognition-barrier-0001/FP16/license-plate-recognition-barrier-0001.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/license-plate-recognition-barrier-0001;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;LPRNet;
+target device;MYRIAD;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);7.69;
+load network time (ms);1671.50;
+first inference time (ms);6.86;
+total execution time (ms);60011.68;
+total number of iterations;20476;
+latency (ms);11.69;
+throughput;341.20;
+

@@ -1,0 +1,26 @@
+Command line parameters;
+api;sync;
+m;/home/pc/Escritorio/TFG/intel/person-attributes-recognition-crossroad-0238/FP16/person-attributes-recognition-crossroad-0238.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/person-attributes-recognition-crossroad-0238;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;person-attributes-recognition-crossroad-0238;
+target device;CPU;
+API;sync;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;1;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);45.57;
+load network time (ms);232.04;
+first inference time (ms);24.76;
+total execution time (ms);60011.42;
+total number of iterations;3646;
+latency (ms);16.26;
+throughput;61.52;
+

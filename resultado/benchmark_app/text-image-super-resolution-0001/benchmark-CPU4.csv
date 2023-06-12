@@ -1,0 +1,26 @@
+Command line parameters;
+m;/home/pc/Escritorio/TFG/intel/text-image-super-resolution-0001/FP16/text-image-super-resolution-0001.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/text-image-super-resolution-0001;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;text-image-super-resolution-0001;
+target device;CPU;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+number of CPU streams;4;
+
+Execution results;
+read network time (ms);5.49;
+load network time (ms);364.79;
+first inference time (ms);141.42;
+total execution time (ms);60315.79;
+total number of iterations;1156;
+latency (ms);207.59;
+throughput;19.17;
+

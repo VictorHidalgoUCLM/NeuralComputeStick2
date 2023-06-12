@@ -1,0 +1,26 @@
+Command line parameters;
+d;MYRIAD;
+m;/home/pi/Desktop/TFG/intel/text-image-super-resolution-0001/FP16/text-image-super-resolution-0001.xml;
+report_folder;/home/pi/Desktop/TFG/resultado/benchmark_app/text-image-super-resolution-0001;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;text-image-super-resolution-0001;
+target device;MYRIAD;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);15.00;
+load network time (ms);3809.33;
+first inference time (ms);661.01;
+total execution time (ms);61521.97;
+total number of iterations;184;
+latency (ms);1330.16;
+throughput;2.99;
+

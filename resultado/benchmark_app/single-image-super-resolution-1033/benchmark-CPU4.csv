@@ -1,0 +1,26 @@
+Command line parameters;
+m;/home/pc/Escritorio/TFG/intel/single-image-super-resolution-1033/FP16/single-image-super-resolution-1033.xml;
+report_folder;/home/pc/Escritorio/TFG/resultado/benchmark_app/single-image-super-resolution-1033;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;single-image-super-resolution-1033;
+target device;CPU;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+number of CPU streams;4;
+
+Execution results;
+read network time (ms);9.33;
+load network time (ms);210.40;
+first inference time (ms);705.97;
+total execution time (ms);61451.36;
+total number of iterations;212;
+latency (ms);971.45;
+throughput;3.45;
+

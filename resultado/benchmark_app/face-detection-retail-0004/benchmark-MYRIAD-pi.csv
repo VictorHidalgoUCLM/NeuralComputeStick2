@@ -1,0 +1,26 @@
+Command line parameters;
+d;MYRIAD;
+m;/home/pi/Desktop/TFG/intel/face-detection-retail-0004/FP16/face-detection-retail-0004.xml;
+report_folder;/home/pi/Desktop/TFG/resultado/benchmark_app/face-detection-retail-0004;
+report_type;no_counters;
+t;60;
+
+Configuration setup;
+topology;cnn_fd_004_sq_light_ssd;
+target device;MYRIAD;
+API;async;
+precision;UNSPECIFIED;
+batch size;1;
+number of iterations;0;
+number of parallel infer requests;4;
+duration (ms);60000;
+
+Execution results;
+read network time (ms);39.24;
+load network time (ms);2058.77;
+first inference time (ms);18.98;
+total execution time (ms);60055.69;
+total number of iterations;7056;
+latency (ms);33.98;
+throughput;117.49;
+
